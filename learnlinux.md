@@ -112,3 +112,50 @@ q			quit
 alias name = 'string'
 
 unalias name		remove an alias
+
+#Redirection
+
+\>	redirecte output to a file
+
+2\>	redirecte error to a file
+
+&\>	both output and error
+
+\> filename	a trick to creat a file
+
+cat filename... \> fikename			concatenate files
+
+cat \> filename	write in a file
+
+cat \< filename	print file content
+
+|
+
+sort			sort lines of text(-u remove repeated lines   -r  sort reversely)
+
+uniq		report or omit repeated lines
+
+wc			print lines, words, and byte counts
+
+grep		print lines matching a pattern (global reguler expression print)
+
+grep -i		ignore case (hu lue dai xao xie)
+
+grep -v		only print lines that didn't match pattern
+
+head filename	print first 10 lines 
+
+tail filename		print last 10 lines
+
+head -n number filename		print first (number) lines 
+
+
+
+
+
+
+
+
+
+
+
